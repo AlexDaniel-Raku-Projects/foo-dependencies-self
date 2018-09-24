@@ -11,8 +11,8 @@
         "Foo::Dependencies::Self" : "lib/Foo/Dependencies/Self.pm6"
     },
     "depends" : [ "Foo::Dependencies::Self" ],
-    "build-depends" : [ ],
-    "test-depends" : [ ],
+    "build-depends" : [ "Foo::Dependencies::Self" ],
+    "test-depends" : [ "Foo::Dependencies::Self" ],
     "resources" : [ ],
     "tags": [ ],
     "source-url" : "git://github.com/AlexDaniel/foo-dependencies-self.git"
